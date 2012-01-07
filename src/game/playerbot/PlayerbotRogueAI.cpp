@@ -80,7 +80,7 @@ PlayerbotRogueAI::~PlayerbotRogueAI() {}
 
 bool PlayerbotRogueAI::DoFirstCombatManeuver(Unit *pTarget)
 {
-    PlayerbotAI* ai = GetAI();
+  /*  PlayerbotAI* ai = GetAI();
     Player * m_bot = GetPlayerBot();
 
     if (STEALTH > 0 && !m_bot->HasAura(STEALTH, EFFECT_INDEX_0) && ai->CastSpell(STEALTH, *m_bot))
@@ -97,7 +97,7 @@ bool PlayerbotRogueAI::DoFirstCombatManeuver(Unit *pTarget)
     {
         m_bot->GetMotionMaster()->MoveFollow(pTarget, 4.5f, m_bot->GetOrientation());
         return false;
-    }
+    }*/
     return false;
 }
 
